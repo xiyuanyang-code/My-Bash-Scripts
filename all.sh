@@ -4,7 +4,7 @@
 # You can put `source all.sh` in to your dotfiles like .zshrc or .bashrc
 
 # Get the directory of the current script
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT_DIR="$HOME/.bash_scripts"
 
 # Source all .sh files in the directory
 # *excluding .git directory
